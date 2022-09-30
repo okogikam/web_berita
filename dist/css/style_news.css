@@ -2,13 +2,13 @@ img {
   max-width: 100%;
 }
 div > .kategori {
-  overflow-y: scroll;
-  overflow-x: hidden;
+  overflow-y: hidden;
+  overflow-x: scroll;
 }
 .kategori {
   display: inline;
-  overflow-y: scroll;
-  overflow-x: hidden;
+  overflow-y: hidden;
+  overflow-x: scroll;
   white-space: nowrap;
 }
 .kategori .kat-item {
