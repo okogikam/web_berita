@@ -1,0 +1,27 @@
+img {
+  max-width: 100%;
+}
+div > .kategori {
+  overflow: hidden;
+}
+.kategori {
+  display: inline;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  white-space: nowrap;
+}
+.kategori .kat-item {
+  margin-right: 2px;
+}
+.splide__slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.splide__slide {
+  opacity: 0.6;
+}
+
+.splide__slide.is-active {
+  opacity: 1;
+}
