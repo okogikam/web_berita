@@ -51,6 +51,9 @@ div > .kategori {
 #new-news .news-item {
   margin-top: 5px;
 }
+.news-img {
+  background-color: white;
+}
 #new-news .news-img {
   display: flex;
   justify-content: center;
