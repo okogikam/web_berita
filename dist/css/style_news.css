@@ -1,18 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+
+.layout-top-nav .content,
+.layout-top-nav .container-fluid {
+  max-width: 900px;
+  margin: auto;
+}
 img {
   max-width: 100%;
 }
+.content {
+  padding: 0px 0px 50px 0px !important;
+}
 div > .kategori {
   overflow-y: hidden;
-  overflow-x: scroll;
+  overflow-x: auto;
 }
 .kategori {
   display: inline;
   overflow-y: hidden;
-  overflow-x: scroll;
+  overflow-x: auto;
   white-space: nowrap;
 }
 .kategori .kat-item {
   margin-right: 2px;
+}
+#main-carousel .splide__slide {
+  position: relative;
 }
 .splide__slide img {
   width: 100%;
@@ -25,4 +39,61 @@ div > .kategori {
 
 .splide__slide.is-active {
   opacity: 1;
+}
+.news-title {
+  text-align: justify;
+  font-family: "Raleway", sans-serif;
+}
+#new-news,
+#hot-news {
+  margin-top: 10px;
+}
+#new-news .news-item {
+  margin-top: 5px;
+}
+#new-news .news-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slide-title {
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  font-size: 1.8rem;
+  background-color: rgba(0, 0, 0, 0.546);
+  color: white;
+  padding: 0px 10px;
+}
+.main-footer {
+  background-color: black;
+}
+.main-footer section {
+  max-width: 900px;
+  margin: auto;
+}
+#kontak {
+  padding-left: 0px;
+}
+#kontak li {
+  list-style: none;
+  font-size: 1.2rem;
+}
+@media screen and (min-width: 660px) {
+  #main-carousel .splide__slide img {
+    max-width: 50%;
+  }
+  .slide-title {
+    position: absolute;
+    top: 0px;
+    left: unset;
+    width: 50%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: justify;
+    background-color: transparent;
+    color: black;
+  }
 }
