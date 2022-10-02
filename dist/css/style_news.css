@@ -1,6 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: capitalize;
+}
+ul {
+  padding: 0px;
+}
 .layout-top-nav .content,
 .layout-top-nav .container-fluid {
   max-width: 900px;
@@ -8,6 +19,10 @@
 }
 img {
   max-width: 100%;
+}
+.main-header .navbar-nav {
+  margin: auto;
+  min-width: 900px;
 }
 .content {
   padding: 0px 0px 50px 0px !important;
@@ -82,6 +97,34 @@ div > .kategori {
 #kontak li {
   list-style: none;
   font-size: 1.2rem;
+}
+.grid-slider {
+  display: flex;
+  overflow: auto;
+}
+.list-number ol li {
+  position: relative;
+}
+.list-number ol li::marker {
+  font-size: 1.5rem;
+}
+.list-pic ul {
+  padding: 0px;
+}
+.list-pic ul li {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  margin: 5px 0px;
+}
+.list-pic ul li img {
+  max-width: 30%;
+  height: 100%;
+  object-fit: cover;
+}
+.list-pic .news-title,
+.list-number .news-title {
+  font-size: 0.9rem;
 }
 @media screen and (min-width: 660px) {
   #main-carousel .splide__slide img {
