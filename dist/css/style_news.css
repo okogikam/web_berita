@@ -20,6 +20,11 @@ ul {
 img {
   max-width: 100%;
 }
+.single-post img {
+  width: 50%;
+  float: left;
+  margin-right: 10px;
+}
 .main-header .navbar-nav {
   margin: auto;
   min-width: 900px;
@@ -125,6 +130,11 @@ div > .kategori {
 .list-pic .news-title,
 .list-number .news-title {
   font-size: 0.9rem;
+}
+@media screen and (max-width: 660px) {
+  .single-post img {
+    width: 100%;
+  }
 }
 @media screen and (min-width: 660px) {
   #main-carousel .splide__slide img {
