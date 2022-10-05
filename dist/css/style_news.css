@@ -131,6 +131,11 @@ div > .kategori {
 .list-number .news-title {
   font-size: 0.9rem;
 }
+
+.note-editable {
+  height: 300px !important;
+}
+
 @media screen and (max-width: 660px) {
   .single-post img {
     width: 100%;
